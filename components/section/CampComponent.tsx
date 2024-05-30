@@ -4,7 +4,7 @@ import CampSiteComponent from "./CampSiteComponent";
 
 const CampComponent = () => {
   return (
-    <section className="2xl:max-container relative flex flex-col pb-10 lg:pt-5">
+    <section className="2xl:max-container relative flex flex-col mt-0 mb-20">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
           <CampSiteComponent
