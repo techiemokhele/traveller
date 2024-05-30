@@ -9,14 +9,14 @@ const CampComponent = () => {
         <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
           <CampSiteComponent
             backgroundImage="bg-bg-img-1"
-            title="Klipview Camp Site"
-            subtitle="Camps Bay, Cape Town"
+            title="Happy Acres"
+            subtitle="Steenkoppies, Magaliesburg"
             peopleJoined="99+ Joined"
           />
           <CampSiteComponent
             backgroundImage="bg-bg-img-2"
-            title="Kimberly Camp Site"
-            subtitle="Kimberly Hole"
+            title="Morester Camp Site"
+            subtitle="Sterkfontein St, Krugersdorp"
             peopleJoined="50+ Joined"
           />
         </div>
