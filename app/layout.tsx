@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import NavbarComponent from "@/components/layout/NavbarComponent";
+import FooterComponent from "@/components/layout/FooterComponent";
 
 export const metadata: Metadata = {
   title: "Neo Mokhele | Traveller App",
   description:
-    "Unlock endless adventures with our traveller app! From flight bookings to personalized recommendations, plan your next journey effortlessly. Download now and explore the world with ease.",
+    "Unlock endless adventures with our traveller app! From flight bookings to personalised recommendations, plan your next journey effortlessly. Explore now the world with ease.",
 
   icons: {
     icon: "/favicon.ico",
@@ -18,7 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavbarComponent />
+        <main className="relative overflow-hidden">{children}</main>
+        <FooterComponent />
+      </body>
     </html>
   );
 }
