@@ -5,7 +5,7 @@ type ButtonProps = {
   title: string;
   icon?: string;
   variant: string;
-  customStyle: string;
+  customStyle?: string;
   onClick?: () => void;
 };
 
