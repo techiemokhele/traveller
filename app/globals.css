@@ -155,3 +155,14 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.slider-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+/* Adjust width and height as needed */
+.campsite {
+  flex-shrink: 0; /* Prevents shrinking */
+}
