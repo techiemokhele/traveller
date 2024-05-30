@@ -5,8 +5,7 @@ type ButtonProps = {
   title: string;
   icon?: string;
   variant: string;
-  customStyle?: string;
-  onClick?: () => void;
+  customStyle: string;
 };
 
 const ButtonComponent = ({
@@ -14,16 +13,19 @@ const ButtonComponent = ({
   title,
   icon,
   variant,
-  onClick,
   customStyle,
 }: ButtonProps) => {
   return (
     <button
       type={type}
-      onClick={onClick}
-      className={`flexCenter gap=3 rounded-full border ${customStyle} ${variant}`}
+      className={`flexCenter gap=3 rounded-full border ${variant} ${customStyle}`}
     >
-      {icon && <Image src={icon} width={24} height={24} alt={title} />}
+      {icon && (
+        <>
+          <Image src={icon} width={22} height={22} alt={title} />
+          &nbsp;
+        </>
+      )}
       <label className="bold-16 whitespace-nowrap">{title}</label>
     </button>
   );
