@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+
 import "./globals.css";
 import NavbarComponent from "@/components/layout/NavbarComponent";
 import FooterComponent from "@/components/layout/FooterComponent";
+import ScrollToTopButtonComponent from "@/components/common/ScrollToTopButtonComponent";
 
 export const metadata: Metadata = {
   title: "Neo Mokhele | Traveller App",
@@ -23,6 +25,7 @@ export default function RootLayout({
       <body>
         <NavbarComponent />
         <main className="relative overflow-hidden">{children}</main>
+        <ScrollToTopButtonComponent />
         <FooterComponent />
       </body>
     </html>
