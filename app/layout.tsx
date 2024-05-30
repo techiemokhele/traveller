@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Unlock endless adventures with our traveller app! From flight bookings to personalised recommendations, plan your next journey effortlessly. Explore now the world with ease.",
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.svg",
   },
 };
 
