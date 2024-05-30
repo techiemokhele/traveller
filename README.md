@@ -1,3 +1,5 @@
+![image](https://github.com/techiemokhele/traveller/assets/67394147/334117a6-a4ac-4d0f-9a0c-3c04662cf18a)
+
 # 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
