@@ -52,7 +52,7 @@ export const NAV_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
+        'About Traveller',
         'Press Releases',
         'Environment',
         'Jobs',
@@ -62,7 +62,7 @@ export const NAV_LINKS = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Hiking Program', 'Camping Program', 'Climbing Program', 'Sightseeing Program', 'Tour Guide Program', 'Road Trip Program'],
     },
   ];
   
@@ -71,6 +71,7 @@ export const NAV_LINKS = [
     links: [
       { label: 'Admin Officer', value: '064-837-3363' },
       { label: 'Email Officer', value: 'neomokhele23@gmail.com' },
+      { label: 'Head Office', value: '180 Rondebult Avenue, Springs, GP' },
     ],
   };
   
@@ -81,6 +82,5 @@ export const NAV_LINKS = [
       '/instagram.svg',
       '/twitter.svg',
       '/youtube.svg',
-      '/wordpress.svg',
     ],
   };

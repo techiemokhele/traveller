@@ -6,6 +6,7 @@ type ButtonProps = {
   icon?: string;
   variant: string;
   customStyle: string;
+  onClick?: () => void;
 };
 
 const ButtonComponent = ({
@@ -13,11 +14,13 @@ const ButtonComponent = ({
   title,
   icon,
   variant,
+  onClick,
   customStyle,
 }: ButtonProps) => {
   return (
     <button
       type={type}
+      onClick={onClick}
       className={`flexCenter gap=3 rounded-full border ${variant} ${customStyle}`}
     >
       {icon && (

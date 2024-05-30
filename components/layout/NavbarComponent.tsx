@@ -42,6 +42,7 @@ const NavbarComponent = () => {
           title="Login"
           icon="/user.svg"
           variant="btn_dark_green"
+          customStyle=""
         />
       </div>
 
@@ -64,7 +65,7 @@ const NavbarComponent = () => {
           onClick={toggleSidebar}
         ></div>
         <div
-          className={`fixed right-0 top-0 bottom-0 w-1/3 bg-white shadow-lg p-5 transition-transform duration-500 ${
+          className={`fixed right-0 top-0 bottom-0 w-1/2 md:w-1/3 bg-white shadow-lg p-5 transition-transform duration-500 ${
             isSidebarOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -86,10 +87,7 @@ const NavbarComponent = () => {
 
           <ButtonComponent
             type="button"
-            onClick={() => {
-              router.push("/");
-              toggleSidebar();
-            }}
+            onClick={() => toggleSidebar()}
             title="Login"
             icon="/user.svg"
             variant="btn_dark_green"
