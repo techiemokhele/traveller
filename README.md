@@ -1,3 +1,5 @@
+![image](https://github.com/techiemokhele/traveller/assets/67394147/334117a6-a4ac-4d0f-9a0c-3c04662cf18a)
+
 # 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
@@ -13,7 +15,7 @@ Make sure you have the following installed on your machine:
 ## Cloning the Repository
 
 ```bash
-git clone https://github.com/adrianhajdin/travel_ui_ux.git
+git clone https://github.com/techiemokhele/traveller.git
 cd travel_ui_ux
 ```
 
