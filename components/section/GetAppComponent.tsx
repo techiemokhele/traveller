@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import ButtonComponent from "../common/ButtonComponent";
+import RatingComponent from "../common/RatingComponent";
 
 const GetApp = () => {
   return (
@@ -10,6 +11,9 @@ const GetApp = () => {
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">
             Get for free now!
           </h2>
+
+          <RatingComponent getApp />
+
           <p className="regular-16 text-gray-10">
             Available on iOS and Android
           </p>
